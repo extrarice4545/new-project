@@ -167,13 +167,6 @@ body {
     color: #8c8c8c;
 }
 
-.new-members {
-    margin-bottom: 10px;
-    color: #8c8c8c;
-    margin-top: 30px;
-    border: #333;
-}
-
 .help a {
     text-decoration: none;
 }
@@ -208,6 +201,10 @@ body {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+#btn:hover {
+    background-color: rgb(233, 1, 13);
 }
 
 @media screen and (max-width: 740px) {

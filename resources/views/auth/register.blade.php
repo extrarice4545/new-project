@@ -69,7 +69,7 @@
                          <span class="text-danger">@error('password') {{$message}} @enderror</span>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-block btn-primary" type="submit">Register</button>
+                        <button id="btn" class="btn btn-block btn-primary" type="submit">Register</button>
                     </div>
 
                     <div class="remember-flex">
@@ -82,9 +82,6 @@
                     </div>
                 </div>
 
-            <div class="new-members">
-                    New to Hanflix? <a href="#" class="signup-link">Sign up now</a>.
-            </div>
                 <div class="protection color_link help">
                     This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
                 </div>
