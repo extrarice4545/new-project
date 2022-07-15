@@ -68,7 +68,7 @@ body {
     width: 450px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
-    padding: 30px 70px 90px 70px;
+    padding: 0px 60px 0px 60px;
 }
 
 #loginBtn,
@@ -115,6 +115,7 @@ body {
     outline: transparent;
     text-indent: 18px;
     border: none;
+    font-size: 12px;
 }
 
 .remember-flex {
@@ -167,25 +168,34 @@ body {
     color: #8c8c8c;
 }
 
-.help a {
-    text-decoration: none;
-}
-
-.help a:hover {
-    text-decoration: underline;
-}
-
 .protection {
     font-size: 0.8rem;
     color: #8c8c8c;
+    height: 200px;
+    width: 300px;
+}
+
+#result {
+    color: white;
+    height: 200px;
+    width: 300px;
 }
 
 .protection a {
     text-decoration: none;
 }
 
+#result {
+    height: inherit;
+    width: inherit;
+}
+
 .protection a:hover {
     text-decoration: underline;
+}
+
+#result {
+    color: #8c8c8c;
 }
 
 .tel-link {
@@ -200,12 +210,13 @@ body {
 .form-group label {
     color: white;
     font-family: sans-serif;
-    font-weight: bold;
+
 }
 
 #btn:hover {
     background-color: rgb(233, 1, 13);
 }
+
 
 @media screen and (max-width: 740px) {
     body {
@@ -228,7 +239,7 @@ body {
     }
 
     .upper {
-        padding-bottom: 93px;
+        padding-bottom: 200px;
     }
 
     .list-bottom {

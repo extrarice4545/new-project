@@ -78,12 +78,15 @@
                      <label class="color_text">Remember me</label>
                 </div>
                     <div class="help">
-                        <a class="color_text" href="#">Need help?</a>
+                        <a class="color_text" href=""></a>
                     </div>
                 </div>
 
                 <div class="protection color_link help">
-                    This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="#" onclick="myFunction()">Learn more.</a>
+                    <div id="result">
+                                
+                    </div>
                 </div>
             </div>
                 </form>
@@ -139,5 +142,10 @@
 
     <!-- JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script type="text/javascript"> 
+ function myFunction() {
+    document.getElementById("result").innerHTML = "This page is protected by Google reCAPTCHA to ensure youre not a bot. The information collected by Google reCAPTCHA is subject to the Google Privacy Policy and Terms of Service, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes it is not used for personalized advertising by Google.";
+};
+</script>
 </body>
 </html>
